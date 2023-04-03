@@ -1,4 +1,4 @@
-# Toaster Oven Lovin
+# Taste Technologists
 
 ## Table of contents
 
