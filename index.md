@@ -44,24 +44,15 @@ This section provides a walkthrough of the Bowfolios user interface and its capa
 
 The landing page is presented to users when they visit the top-level URL to the site.
 
+![](landing.jpg)
 
+### Search Recipe Page 
 
-### Index pages (Projects, Profiles, Interests)
+![](search.jpg)
 
-Bowfolios provides three public pages that present the contents of the database organized in various ways.
+### Individual Recipe Page
 
-The Profiles page shows all the current defined profiles and their associated Projects and Interests:
-
-
-
-The Projects page shows all the currently defined Projects and their associated Profiles and Interests:
-
-
-
-Finally, the Interests page shows all the currently defined Interests, and their associated Profiles and Projects:
-
-
-
+![](individual_recipe.jpg)
 
 ### Sign in and sign up
 
