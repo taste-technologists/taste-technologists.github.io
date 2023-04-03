@@ -52,7 +52,7 @@ The landing page is presented to users when they visit the top-level URL to the 
 
 ### Individual Recipe Page
 
-![](individual_recipe.jpg)
+![](individual_recipt.jpg)
 
 ### Sign in and sign up
 
