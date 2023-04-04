@@ -3,15 +3,10 @@
 ## Table of contents
 
 * [Overview](#overview)
-* [Deployment](#deployment)
-* [User Guide](#user-guide)
-* [Community Feedback](#community-feedback)
-* [Developer Guide](#developer-guide)
-* [Development History](#development-history)
-* [Continuous Integration](#continuous-integration)
-* [Walkthrough videos](#walkthrough-videos)
-* [Example enhancements](#example-enhancements)
 * [Team](#team)
+* [Team Contract](#team-contract)
+* [User Guide](#user-guide)
+* [Developer Guide](#developer-guide)
 
 ## Overview
 
@@ -36,9 +31,15 @@ It also provides code that implements a variety of useful design concepts, inclu
 
 * Three primary collections (Profiles, Recipes, Interests) as well as three "join" Collections (ProfilesInterests, ProfilesRecipe, and ProjectsInterests) that implement many-to-many relationships between them.
 
+## Team
+Our team consists of five developers: Amanda Achiu, Iwalani Campbell, Christina Mende, Tsz Ching Wong, and Christianne Young.
+
+## Team Contract
+In order to efficiently work together as a group, we have come with a [team contract](https://docs.google.com/document/d/1sjqEOUAvMnTnnFC-cFGRXGMhvwe6CVLrR_du6l2pfGI/edit?usp=sharing).
+
 ## User Guide
 
-This section provides a walkthrough of the Bowfolios user interface and its capabilities.
+This section provides a walkthrough of the Taste Technologists user interface and its capabilities.
 
 ### Landing Page
 
@@ -82,12 +83,9 @@ Once you are logged in, you can define new projects with the Add Project page:
 The Filter page provides the ability to query the database and display the results in the page. In this case, the query displays all of the Profiles that match one or more of the specified Interest(s).
 
 
-
-## Community Feedback
-
-We are interested in your experience using Bowfolio!  If you would like, please take a couple of minutes to fill out the feedback form. It contains only five short questions and will help us understand how to improve the system.
-
 ## Developer Guide
 
-This section provides information of interest to Meteor developers wishing to use this code base as a basis for their own development tasks.
+As our team implements this application, we will be working according to three milestones.
+
+Milestone 1 is located [here]([https://www.meteor.com/](https://github.com/orgs/taste-technologists/projects/1)).
 
