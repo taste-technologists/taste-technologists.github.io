@@ -87,5 +87,5 @@ The Filter page provides the ability to query the database and display the resul
 
 As our team implements this application, we will be working according to three milestones.
 
-Milestone 1 is located [here]([https://www.meteor.com/](https://github.com/orgs/taste-technologists/projects/1)).
+Milestone 1 is located [here](https://github.com/orgs/taste-technologists/projects/1).
 
