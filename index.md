@@ -52,7 +52,7 @@ This section provides a walkthrough of the Taste Technologists user interface an
 
 The landing page is presented to users when they visit the top-level URL to the site.
 
-![](landing.jpg)
+![](landing-page.png)
 
 ### Sign In and Sign Up Page
 
