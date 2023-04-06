@@ -35,7 +35,7 @@ It also provides code that implements a variety of useful design concepts, inclu
 
 
 ## Team
-Our team consists of five developers: Amanda Achiu, Iwalani Campbell, Christina Mende, Tsz Ching Wong, and Christianne Young.
+Our team consists of five developers: Amanda Achiu, Iwalani Campbell, Christina Mende, Tsz Ching Wong, and [Christianne Young](https://clyyoung.github.io/).
 
 Coordination strategy:
 * One meeting in person, one virtually via Discord
