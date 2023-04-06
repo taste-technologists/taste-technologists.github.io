@@ -1,0 +1,8 @@
+title: Taste Technologists
+description: A web application with easy and delicious recipes for college students with limited resources.
+google_analytics:
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions
