@@ -31,7 +31,8 @@ The project illustrates various technologies useful to ICS software engineering 
 
 It also provides code that implements a variety of useful design concepts, including:
 
-* Three primary collections (Profiles, Recipes, Interests) as well as three "join" Collections (ProfilesInterests, ProfilesRecipe, and ProjectsInterests) that implement many-to-many relationships between them.
+* Vendor, admin and default users (students).  Admins can edit all content in the system, remove inappropriate content and establish users having a vendor role. Vendors can establish a profile including their locations and hours and for each ingredient in the system indicate the stock, cost, and quantity. Regular users can also change ingredient price and availability.  From ingredient information the system can automatically calculate all the places nearby campus that has the ingredient and the prices for each ingredient at each place. 
+
 
 ## Team
 Our team consists of five developers: Amanda Achiu, Iwalani Campbell, Christina Mende, Tsz Ching Wong, and Christianne Young.
@@ -68,20 +69,6 @@ Click on the "Login" button in the upper right corner of the navbar, then select
 
 
 Alternatively, you can select "Sign up" to go to the following page and register as a new user:
-
-
-
-### Home page
-
-After logging in, you are taken to the home page, which presents a form where you can complete and/or update your personal profile:
-
-
-
-### Add Project page
-
-Once you are logged in, you can define new projects with the Add Project page:
-
-
 
 
 ### Filter page
