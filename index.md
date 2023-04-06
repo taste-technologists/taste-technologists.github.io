@@ -12,7 +12,7 @@
 
 ## Overview
 
-Taste Technologists is a web application designed for college students with limited kitchen resources, minimal cooking skills, and limited access to groceries. Our application is for college students who would like to eat healthier and spend less money on eating out.
+Taste Technologists is a web application designed for college students with limited kitchen resources, minimal cooking skills, and limited access to groceries. Our application is for college students who would like to eat healthier and spend less money on eating out. This application is based on [Toaster Oven Lovin'](https://courses.ics.hawaii.edu/ics314s23/morea/final-project/reading-project-toaster-oven-lovin.html).
 
 Taste Technologists gives students (on-campus or off) a variety of easy and delicious recipes that:
 * Can be made using minimal kitchen facilities (at a minimum, a toaster oven).
@@ -40,6 +40,7 @@ Our team consists of five developers: [Amanda Achiu](https://blesssyouu.github.i
 Coordination strategy:
 * One meeting in person, one virtually via Discord
 * Short meetings on Discord if needed
+* Issues will be self-assigned
 
 ## Team Contract
 In order to efficiently work together as a group, we have come with a [team contract](https://docs.google.com/document/d/1sjqEOUAvMnTnnFC-cFGRXGMhvwe6CVLrR_du6l2pfGI/edit?usp=sharing).
