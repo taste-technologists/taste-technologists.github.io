@@ -1,5 +1,7 @@
 # Taste Technologists
 
+![](FaS-BldTrnsprnt.png)
+
 ## Table of contents
 
 * [Overview](#overview)
