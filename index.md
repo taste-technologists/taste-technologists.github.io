@@ -71,9 +71,14 @@ Click on the "Login" button in the upper right corner of the navbar, then select
 Alternatively, you can select "Sign up" to go to the following page and register as a new user:
 
 
-### Filter page
+### Search page
 
-The Filter page provides the ability to query the database and display the results in the page. In this case, the query displays all of the Profiles that match one or more of the specified Interest(s).
+The Search page provides the ability to query the recipe database and display the results in the page. In this case, the query also diplays all of the recipes along with their specified restrictions and preferences. Restrictions and preferences can include:
+
+* Minimal kitchen facilities 
+* Dietary restrictions 
+* Cost, servings, time
+* Available ingredients 
 
 
 ## Developer Guide
