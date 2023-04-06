@@ -54,22 +54,16 @@ The landing page is presented to users when they visit the top-level URL to the 
 
 ![](landing.jpg)
 
-### Search Recipe Page 
-
-![](search.jpg)
-
-### Individual Recipe Page
-
-![](individual_recipt.jpg)
-
 ### Sign in and sign up
 
 Click on the "Login" button in the upper right corner of the navbar, then select "Sign in" to go to the following page and login. You must have been previously registered with the system to use this option:
 
+![](Login.jpg)
 
 
 Alternatively, you can select "Sign up" to go to the following page and register as a new user:
 
+![](Register.jpg)
 
 ### Search page
 
@@ -80,6 +74,15 @@ The Search page provides the ability to query the recipe database and display th
 * Cost, servings, time
 * Available ingredients 
 
+![](search.jpg)
+
+### Individual Recipe Page
+
+![](individual.jpg)
+
+### Profile Page
+
+![](favorite.jpg)
 
 ## Developer Guide
 
