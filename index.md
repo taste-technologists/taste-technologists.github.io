@@ -1,4 +1,3 @@
-# Taste Technologists
 
 ![](FaS-BldTrnsprnt.png)
 
