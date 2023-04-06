@@ -54,7 +54,7 @@ The landing page is presented to users when they visit the top-level URL to the 
 
 ![](landing.jpg)
 
-### Sign in and sign up
+### Sign In and Sign Up Page
 
 Click on the "Login" button in the upper right corner of the navbar, then select "Sign in" to go to the following page and login. You must have been previously registered with the system to use this option:
 
@@ -65,22 +65,27 @@ Alternatively, you can select "Sign up" to go to the following page and register
 
 ![](Register.jpg)
 
-### Search page
+### Search Page
 
-The Search page provides the ability to query the recipe database and display the results in the page. In this case, the query also diplays all of the recipes along with their specified restrictions and preferences. Restrictions and preferences can include:
-
-* Minimal kitchen facilities 
-* Dietary restrictions 
-* Cost, servings, time
-* Available ingredients 
+The search page provides the ability to query the recipe database and display the results in the page. 
 
 ![](search.jpg)
 
 ### Individual Recipe Page
 
+The individual recipe page provides the necessary information of the selected recipe. The recipe card should include but not limited to:
+
+* Minimal kitchen facilities 
+* Dietary restrictions 
+* Cost, servings, time
+* Available ingredients 
+* Nearby grocery stores
+
 ![](individual.jpg)
 
 ### Profile Page
+
+The profile page allows users to keep track of their favorite recipe for later referrences.
 
 ![](favorite.jpg)
 
