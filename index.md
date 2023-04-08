@@ -46,7 +46,7 @@ In order to efficiently work together as a group, we have come up with a [team c
 
 ## User Guide
 
-This section provides a walkthrough of the Taste Technologists user interface and its capabilities.
+This section provides a walkthrough of the Taste Technologists user interface and its capabilities. The deployed application can be viewed [here](http://147.182.204.39).
 
 ### Landing Page
 
