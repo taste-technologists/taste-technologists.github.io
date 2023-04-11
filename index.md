@@ -8,10 +8,11 @@
 * [Team Contract](#team-contract)
 * [User Guide](#user-guide)
 * [Developer Guide](#developer-guide)
+* [Deployment](#deployment)
 
 ## Overview
 
-Taste Technologists is a web application designed for college students with limited kitchen resources, minimal cooking skills, and limited access to groceries. Our application is for college students who would like to eat healthier and spend less money on eating out. This application is based on [Toaster Oven Lovin'](https://courses.ics.hawaii.edu/ics314s23/morea/final-project/reading-project-toaster-oven-lovin.html).
+[Taste Technologists](https://github.com/taste-technologists) is a web application designed for college students with limited kitchen resources, minimal cooking skills, and limited access to groceries. Our application is for college students who would like to eat healthier and spend less money on eating out. This application is based on [Toaster Oven Lovin'](https://courses.ics.hawaii.edu/ics314s23/morea/final-project/reading-project-toaster-oven-lovin.html).
 
 Taste Technologists gives students (on-campus or off) a variety of easy and delicious recipes that:
 * Can be made using minimal kitchen facilities (at a minimum, a toaster oven).
@@ -46,7 +47,7 @@ In order to efficiently work together as a group, we have come up with a [team c
 
 ## User Guide
 
-This section provides a walkthrough of the Taste Technologists user interface and its capabilities. The deployed application can be viewed [here](http://147.182.204.39).
+This section provides a walkthrough of the Taste Technologists user interface and its capabilities.
 
 ### Landing Page
 
@@ -94,4 +95,7 @@ The profile page allows users to keep track of their favorite recipes for later 
 As our team implements this application, we will be working according to three milestones.
 
 Milestone 1 is located [here](https://github.com/orgs/taste-technologists/projects/1).
+Milestone 2 is located [here].
 
+## Deployment
+The deployed application can be viewed [here](http://147.182.204.39).
