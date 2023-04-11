@@ -95,6 +95,7 @@ The profile page allows users to keep track of their favorite recipes for later 
 As our team implements this application, we will be working according to three milestones.
 
 Milestone 1 is located [here](https://github.com/orgs/taste-technologists/projects/1).
+
 Milestone 2 is located [here].
 
 ## Deployment
