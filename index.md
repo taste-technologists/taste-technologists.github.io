@@ -96,7 +96,7 @@ As our team implements this application, we will be working according to three m
 
 Milestone 1 is located [here](https://github.com/orgs/taste-technologists/projects/1).
 
-Milestone 2 is located [here].
+Milestone 2 is located [here](https://github.com/orgs/taste-technologists/projects/7).
 
 ## Deployment
 The deployed application can be viewed [here](http://147.182.204.39).
