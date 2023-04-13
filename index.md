@@ -81,9 +81,9 @@ The individual recipe page provides the necessary information of the selected re
 
 ![](M1_IndividualRecipe.png)
 
-### Profile Page
+### Favorites Page
 
-The profile page allows users to keep track of their favorite recipes for later references.
+The favorites page allows users to keep track of their favorite recipes for later references.
 
 ![](M1_Favorites.png)
 
