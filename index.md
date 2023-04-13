@@ -44,24 +44,24 @@ This section provides a walkthrough of the Taste Technologists user interface an
 
 The landing page is presented to users when they visit the top-level URL to the site.
 
-![](landing.jpg)
+![](M1_LandingPage.png)
 
 ### Sign In and Sign Up Page
 
 Click on the "Login" button in the upper right corner of the navbar, then select "Sign in" to go to the following page and login. You must have been previously registered with the system to use this option:
 
-![](Login.jpg)
+![](M1_SignInPage.png)
 
 
 Alternatively, you can select "Sign up" to go to the following page and register as a new user:
 
-![](Register.jpg)
+![](M1_RegisterPage.png)
 
 ### Search Page
 
 The search page provides the ability to query the recipe database and display the results in the page. 
 
-![](search.jpg)
+![](M1_List.png)
 
 ### Individual Recipe Page
 
@@ -73,13 +73,13 @@ The individual recipe page provides the necessary information of the selected re
 * Available ingredients 
 * Nearby grocery stores
 
-![](individual.jpg)
+![](M1_IndividualRecipe.png)
 
 ### Profile Page
 
 The profile page allows users to keep track of their favorite recipes for later references.
 
-![](favorite.jpg)
+![](M1_Favorites.png)
 
 ## Developer Guide
 
@@ -310,7 +310,7 @@ Started TaskList: Start Meteor
 The Taste Technologists application should now be available at at http://111.222.333.444, where '111.222.333.444' is replaced by the IP address for your Droplet.
 
 ## Development History
-As our team implements this application, we will be working according to three milestones.
+As our team implements this application, we will be working according to three milestones.  For our first deployment our main concerns were creating the base pages and basic components of the page.  We used the react template to give us the framework of the website. Additionally, we added in basic user functionality like being able to see all recipes and individual recipes.  We also created logos and have a draft of a basic theme.  In the M2 we want to create more collections as well as functionality for users, vendors and admins.  Depending on how much tasks we finish in M2 we could also create beyond the basics features.  
 
 Milestone 1 is located [here](https://github.com/orgs/taste-technologists/projects/1).
 
