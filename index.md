@@ -4,12 +4,13 @@
 ## Table of contents
 
 * [Overview](#overview)
-* [Team](#team)
-* [Team Contract](#team-contract)
 * [User Guide](#user-guide)
 * [Developer Guide](#developer-guide)
+* [Development History](#developer-guide)
 * [Deployment](#deployment)
 * [Contact Us](#contact-us)
+* [Team](#team)
+* [Team Contract](#team-contract)
 
 ## Overview
 
@@ -43,7 +44,7 @@ This section provides a walkthrough of the Taste Technologists user interface an
 
 The landing page is presented to users when they visit the top-level URL to the site.
 
-![img.png](img.png)![](landing.jpg)
+![](landing.jpg)
 
 ### Sign In and Sign Up Page
 
@@ -145,17 +146,17 @@ You can verify that the code obeys our coding standards by running ESLint over t
 meteor npm run lint
 ```
 
-### Deployment
-#### Digital Ocean Setup
+## Deployment
+### Digital Ocean Setup
 For our project, we used [Digital Ocean](https://www.digitalocean.com/) to set up the server and host the application.
 
 To Deploy Taste Technologists, you will need to complete the following steps:
-##### 1. Sign up with Digital Ocean
+#### 1. Sign up with Digital Ocean
 Go to [Digital Ocean](https://www.digitalocean.com/) and click on the 'Sign Up' button to create your account.
 
 Note that you will need a credit card to complete the sign up. Currently (as of 4/12/23) Digital Ocean is offering a free $200 credit for 60 days.
 
-##### 2. Create an Ubuntu Server
+#### 2. Create an Ubuntu Server
 Find the Create Droplets page and choose your preferred settings. Once you are finished selecting your settings, click the 'Create Droplet' button at the bottom of your screen.
 
 The following are some recommended settings:
@@ -178,14 +179,14 @@ Once you have successfully created your droplet, you will find the information u
 #### Local Setup
 The rest of the deployment instructions must be carried out via your computer.
 
-##### 3. Clone and install a copy of Taste Technologists.
+#### 3. Clone and install a copy of Taste Technologists.
 If you have not already done so, clone the repository for Taste Technologists and run the installation instructions.
 
-##### 4. Install Meteor Up
+#### 4. Install Meteor Up
 Install Meteor Up onto your computer by running
 
 ```$ npm install --global mup ```
-##### 5. Create app/.deploy/mup.js and app/.deploy/settings.json
+#### 5. Create app/.deploy/mup.js and app/.deploy/settings.json
 
 Create an IntelliJ Project for your local copy of Taste Technologists.
 
@@ -195,7 +196,7 @@ In the app/.deploy directory, you’ll find two files: mup.sample.js and setting
 
 These files should be git-ignored, so you may safely store credentials here.
 
-##### 6. Configure mup.js
+#### 6. Configure mup.js
 To do the initial deployment, you only need to edit the mup.js starting template.
 ````
 module.exports = {
@@ -248,7 +249,7 @@ Change the string “111.222.333.444” to the IP address associated with your D
 
 Note that the “host” value is just the IP address, but the ROOT_URL is “http://” followed by the IP address.
 
-##### 7. Run mup setup
+#### 7. Run mup setup
 Once you have completed configuring the mup.js file, you can now setup the application and MongoDB database.
 
 Inside the app/.deploy directory, invoke “mup setup” (or “mup.cmd setup” on Windows).
@@ -278,7 +279,7 @@ Next, you should run:
     mup deploy
 ````
 
-##### 8. Run mup deploy
+#### 8. Run mup deploy
 If the previous step was successful, you can now start running your application on the Droplet.
 Inside the same directory as before (app/.deploy), invoke "mup deploy" (or, on Windows “mup.cmd deploy”).
 
@@ -305,7 +306,7 @@ Started TaskList: Start Meteor
 [111.222.333.444] - Verifying Deployment: SUCCESS
 ````
 
-##### 9. View your application
+#### 9. View your application
 The Taste Technologists application should now be available at at http://111.222.333.444, where '111.222.333.444' is replaced by the IP address for your Droplet.
 
 ## Development History
