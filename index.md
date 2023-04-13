@@ -57,6 +57,12 @@ Alternatively, you can select "Sign up" to go to the following page and register
 
 ![](M1_RegisterPage.png)
 
+### List Recipes Page
+
+The list recipes page provides a display of all the recipe cards in the database. 
+
+![](M1_List.png)
+
 ### Search Page
 
 The search page provides the ability to query the recipe database and display the results in the page. 
@@ -80,6 +86,14 @@ The individual recipe page provides the necessary information of the selected re
 The profile page allows users to keep track of their favorite recipes for later references.
 
 ![](M1_Favorites.png)
+
+### My Recipes Page
+
+The my recipes page gives users the ability to add their own recipes to the application. Each time a recipe is added by a user, the user's email will be set as the recipe's owner.
+
+### Vendor Page
+
+The vendor page lists all of the available stores, locations, hours, and the updated inventory. If a user is assigned to the vendor role, they will be able to edit the inventory for their store.
 
 ## Developer Guide
 
