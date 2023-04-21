@@ -330,9 +330,11 @@ The Taste Technologists application should now be available at at http://111.222
 ## Development History
 As our team implements this application, we will be working according to three milestones.  For our first deployment our main concerns were creating the base pages and basic components of the page.  We used the react template to give us the framework of the website. Additionally, we added in basic user functionality like being able to see all recipes and individual recipes.  We also created logos and have a draft of a basic theme.  In the M2 we want to create more collections as well as functionality for users, vendors and admins.  Depending on how much tasks we finish in M2 we could also create beyond the basics features.  
 
-Milestone 1 is located [here](https://github.com/orgs/taste-technologists/projects/1).
+[Milestone 1](https://github.com/orgs/taste-technologists/projects/1)
 
-Milestone 2 is located [here](https://github.com/orgs/taste-technologists/projects/7).
+[Milestone 2](https://github.com/orgs/taste-technologists/projects/7)
+
+[Milestone 3](https://github.com/orgs/taste-technologists/projects/8)
 
 
 ## Deployment
