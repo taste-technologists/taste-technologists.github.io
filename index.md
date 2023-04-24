@@ -147,30 +147,38 @@ The vendor page lists all of the available stores, locations, hours, and the upd
 ## Developer Guide
 
 
-### Installation 
-First, [install Meteor](https://www.meteor.com/install).
 
-Second, go to [https://github.com/taste-technologists/taste-technologists](https://github.com/taste-technologists/taste-technologists), and download a copy of Taste Technologists.
+<h3>Installation</h3>
+<details>
+<summary>Click for installation instructions </summary>
 
-Third, go to your newly created repository, and click the "Clone or download" button to download your new GitHub repo to your local file system.  Using [GitHub Desktop](https://desktop.github.com/) is a great choice if you use MacOS or Windows.
+<p>First, <a href="https://meteor.com/install"> install Meteor</a></p>
 
-Fourth, cd into the app/ directory of your local copy of the repo, and install third party libraries with:
+<p>Second, go to <a href="https://github.com/taste-technologists/taste-technologists">https://github.com/taste-technologists/taste-technologists</a>, and download a copy of Taste Technologists.</p>
 
-```
-$ meteor npm install
-```
+<p>Third, go to your newly created repository, and click the "Clone or download" button to download your new GitHub repo to your local file system.  Using <a href="https://desktop.github.com/">Github Desktop</a> is a great choice if you use MacOS or Windows.</p>
 
-### Running the system
+<p>Fourth, cd into the app/ directory of your local copy of the repo, and install third party libraries with:</p>
 
-Once the libraries are installed, you can run the application by invoking the "start" script in the [package.json file](https://github.com/taste-technologists/taste-technologists/blob/main/app/package.json):
+<pre>
+<code> $ meteor npm install </code>
+</pre>
+</details>
 
-```
+<h3>Running the system</h3>
+
+<details>
+<summary>Click for instructions on running the system.</summary>
+
+<p>Once the libraries are installed, you can run the application by invoking the "start" script in the <a href="https://github.com/taste-technologists/taste-technologists/blob/main/app/package.json">package.json file</a>:</p>
+
+<code>
 $ meteor npm run start
-```
+</code>
 
-The first time you run the app, it will create some default users and recipes. Here is the output of the current version:
-
-```
+<p>The first time you run the app, it will create some default users and recipes. Here is the output of the current version:</p>
+<pre>
+<code>
 $ meteor npm run start
 
 > meteor-application-template-react@ start /Users/user/Documents/GitHub/taste-technologists/app
@@ -192,11 +200,19 @@ I20230412-14:08:23.317(-10)?   Adding: Parmesan Thyme Crisps (admin@foo.com)
 
 => App running at: http://localhost:3000/
        
-```
+</code>
+</pre>
 
-Periodically, you might see `Error starting Mongo (2 tries left): Cannot run replSetReconfig because the node is currently updating its configuration` after the `=> Started HMR server.`. It doesn't seem to be a problem since the MongoDB does start.
+Periodically, you might see
+<code> Error starting Mongo (2 tries left): Cannot run replSetReconfig because the node is currently updating its configuration
+</code>
+
+after the <code>=> Started HMR server.</code>. It doesn't seem to be a problem since the MongoDB does start.
+
+</details>
 
 ### Viewing the running app
+
 
 If all goes well, the template application will appear at [http://localhost:3000](http://localhost:3000).  You can login using the credentials in [settings.development.json](https://github.com/taste-technologists/taste-technologists/blob/main/config/settings.development.json), or else register a new account.
 
