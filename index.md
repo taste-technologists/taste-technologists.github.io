@@ -63,6 +63,9 @@ The list recipes page provides a display of all the recipe cards in the database
 
 ![](M2_Favorites.png)
 
+If a user has not yet added any favorites the following page will be displayed:
+![](M2_FavoritesNone.png)
+
 ### Search Page
 
 The search page provides the ability to filter the recipe database and display the results in the page. 
@@ -86,6 +89,9 @@ The my recipes page will display all of the recipes that the user has added to t
 
 ![](M2_MyRecipes.png)
 
+If a user has not added any recipes they will see the following page:
+![](M2_MyRecipesNone.png)
+
 ### Add Recipes Page
 The add recipes page gives users the ability to add their own recipes to the application. Each time a recipe is added by a user, the user's email will be set as the recipe's owner.
 
@@ -101,6 +107,9 @@ The edit recipes page gives users the ability to edit their own recipes in the a
 The vendor page lists all of the available stores, locations, hours, and the updated inventory. If a user is assigned to the vendor role, they will be able to edit the inventory for their store.
 
 ![](M2_VendorList.png)
+
+Regular users will see the following vendor page:
+![](M2_VendorListUser.png)
 
 ### Vendor Add Page
 The vendor add page allows a user to create a new vendor for the application's vendor list. The only users with this functionality are the superadmin, admin, and vendor.
@@ -135,6 +144,8 @@ The admin dashboard pages allows an admin user to view all of the users in the a
 
 ### Admin Edit Role Page
 Clicking on the edit button on the admin dashboard leads the admin to the edit role page. Here admins can update and change the roles of users on the application. If a user requests to be a vendor, the admin can grant this request through this page.
+
+Note that only a superadmin can assign an admin role to other users.
 
 ![](M2_AdminEditRole.png)
 
