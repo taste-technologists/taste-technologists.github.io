@@ -92,13 +92,13 @@ The my recipes page will display all of the recipes that the user has added to t
 If a user has not added any recipes they will see the following page:
 ![](M2_MyRecipesNone.png)
 
-### Add Recipes Page
-The add recipes page gives users the ability to add their own recipes to the application. Each time a recipe is added by a user, the user's email will be set as the recipe's owner.
+### Add Recipe Page
+The add recipe page gives users the ability to add their own recipes to the application. Each time a recipe is added by a user, the user's email will be set as the recipe's owner.
 
 ![](M2_RecAdd.png)
 
-### Edit Recipes Page
-The edit recipes page gives users the ability to edit their own recipes in the application.
+### Edit Recipe Page
+The edit recipe page gives users the ability to edit their own recipes in the application.
 
 ![](M2_RecEdit.png)
 
@@ -111,13 +111,13 @@ The vendor page lists all of the available stores, locations, hours, and the upd
 Regular users will see the following vendor page:
 ![](M2_VendorListUser.png)
 
-### Vendor Add Page
-The vendor add page allows a user to create a new vendor for the application's vendor list. The only users with this functionality are the superadmin, admin, and vendor.
+### Add Vendor Page
+The add vendor page allows a user to create a new vendor for the application's vendor list. The only users with this functionality are the superadmin, admin, and vendor.
 
 ![](M2_VendorAdd.png)
 
-### Vendor Edit Page
-The vendor edit page allows an authorized user to edit the vendor information so that it is up-to-date.
+### Edit Vendor Page
+The edit vendor page allows an authorized user to edit the vendor information so that it is up-to-date.
 ![](M2_VendorEdit.png)
 
 ### Vendor Inventory Page
