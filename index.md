@@ -150,7 +150,7 @@ The vendor page lists all of the available stores, locations, hours, and the upd
 
 <h3>Installation</h3>
 <details>
-<summary>Click for installation instructions </summary>
+<summary style="color:blue;">Click for installation instructions</b> </summary>
 
 <p>First, <a href="https://meteor.com/install"> install Meteor</a></p>
 
@@ -168,7 +168,7 @@ The vendor page lists all of the available stores, locations, hours, and the upd
 <h3>Running the system</h3>
 
 <details>
-<summary>Click for instructions on running the system.</summary>
+<summary style="color:blue;">Click for instructions on running the system.</summary>
 
 <p>Once the libraries are installed, you can run the application by invoking the "start" script in the <a href="https://github.com/taste-technologists/taste-technologists/blob/main/app/package.json">package.json file</a>:</p>
 
@@ -233,7 +233,7 @@ For our project, we used [Digital Ocean](https://www.digitalocean.com/) to set u
 To Deploy Taste Technologists, you will need to complete several steps:
 
 <details>
-<summary>Click for Deployment Instructions</summary>
+<summary style="color:blue;">Click for Deployment Instructions</summary>
 
 <h4>1. Sign up with Digital Ocean</h4>
 <p>Go to <a href="https://www.digitalocean.com/">Digital Ocean</a> and click on the 'Sign Up' button to create your account.</p>
@@ -243,7 +243,7 @@ To Deploy Taste Technologists, you will need to complete several steps:
 <p>Find the Create Droplets page and choose your preferred settings. Once you are finished selecting your settings, click the 'Create Droplet' button at the bottom of your screen.</p>
 <p>The following are some recommended settings:</p>
 <details>
-<summary>Click to view</summary>
+<summary style="color:blue;">Click to view</summary>
 <img src="https://taste-technologists.github.io/do-1.png" alt="Ubuntu Server - Version 22.10 x64">
 <ul>
 <li>Ubuntu Server - Version 22.10 x64</li>
@@ -286,7 +286,7 @@ If you have not already done so, clone the repository for Taste Technologists an
 <h4>6. Configure mup.js</h4>
 <p>To do the initial deployment, you only need to edit the mup.js starting template.</p>
 <details>
-<summary>Click to view code: </summary>
+<summary style="color:blue;">Click to view code: </summary>
 
 <pre>
 <code>
