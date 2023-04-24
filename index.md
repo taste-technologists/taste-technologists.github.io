@@ -31,7 +31,7 @@ The project illustrates various technologies useful to ICS software engineering 
 * [React](https://reactjs.org/) for component-based UI implementation and routing.
 * [React Bootstrap](https://react-bootstrap.github.io/) CSS Framework for UI design.
 
-It also provides code that implements a variety of useful design concepts, including:
+It also provides code that implements a variety of useful design concepts, including: 
 
 * Vendor, admin and default users (students).  Admins can edit all content in the system, remove inappropriate content and establish users having a vendor role. Vendors can establish a profile including their locations and hours and for each ingredient in the system indicate the stock, cost, and quantity. Regular users can also change ingredient price and availability.  From ingredient information the system can automatically calculate all the places nearby campus that has the ingredient and the prices for each ingredient at each place. 
 
