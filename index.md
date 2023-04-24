@@ -129,7 +129,7 @@ The vendor add page allows a user to create a new vendor for the application's v
 
 
 ### Admin Dashboard Page
-The admin dashboard pages allows an admin user to view all of the users in the application along with their respective role. Admins can also see a total user count, recipe count, and vendor count. If a user requests to be a vendor, this will appear on the dashboard as well. Additionally, admins can delete users from the application. In order to create a safeguard for admin users, only the superadmin can delete admin users.
+The admin dashboard pages allows an admin user to view all of the users in the application along with their respective role. Admins can also see a total user count, recipe count, and vendor count. The recipes button goes to the search recipes page and the ingredients button goes to the admin vendor list page. If a user requests to be a vendor, this will appear on the dashboard as well. Additionally, admins can delete users from the application. In order to create a safeguard for admin users, only the superadmin can delete admin users.
 
 ![](M2_Admin.png)
 
