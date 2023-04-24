@@ -88,13 +88,13 @@ The my recipes page will display all of the recipes that the user has added to t
 
 ### Add Recipes Page
 The add recipes page gives users the ability to add their own recipes to the application. Each time a recipe is added by a user, the user's email will be set as the recipe's owner.
-![](M2_RecAdd.png)
 
+![](M2_RecAdd.png)
 
 ### Edit Recipes Page
 The edit recipes page gives users the ability to edit their own recipes in the application.
-![](M2_RecEdit.png)
 
+![](M2_RecEdit.png)
 
 ### Vendor Page
 
@@ -103,7 +103,7 @@ The vendor page lists all of the available stores, locations, hours, and the upd
 ![](M2_VendorList.png)
 
 ### Vendor Add Page
-*** Add Description ***
+The vendor add page allows an admin to create a new vendor for the application's vendor list. The only users with this functionality are the superadmin and admin.
 
 ![](M2_VendorAdd.png)
 
@@ -129,18 +129,17 @@ The vendor page lists all of the available stores, locations, hours, and the upd
 
 
 ### Admin Dashboard Page
-*** Add Description ***
+The admin dashboard pages allows an admin user to view all of the users in the application along with their respective role. Admins can also see a total user count, recipe count, and vendor count. If a user requests to be a vendor, this will appear on the dashboard as well. Additionally, admins can delete users from the application. In order to create a safeguard for admin users, only the superadmin can delete admin users.
 
 ![](M2_AdminDash.png)
 
-
 ### Admin Edit Role Page
-*** Add Description ***
+Clicking on the edit button on the admin dashboard leads the admin to the edit role page. Here admins can update and change the roles of users on the application. If a user requests to be a vendor, the admin can grant this request through this page.
 
 ![](M2_AdminEditRole.png)
 
 ### Admin Vendor List Page
-*** Add Description ***
+The admin vendor list page allows the admin user to view all of the vendors as well as the inventory that they have in stock. Admins can also edit the inventory on this page.
 
 ![](M2_AdminVendorList.png)
 
