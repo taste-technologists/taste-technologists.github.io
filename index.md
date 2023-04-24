@@ -150,7 +150,7 @@ The vendor page lists all of the available stores, locations, hours, and the upd
 
 <h3>Installation</h3>
 <details>
-<summary style="color:blue;">Click for installation instructions> </summary>
+<summary style="color:blue;">Click for installation instructions </summary>
 
 <p>First, <a href="https://meteor.com/install"> install Meteor</a></p>
 
