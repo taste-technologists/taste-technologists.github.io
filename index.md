@@ -6,7 +6,7 @@
 * [Overview](#overview)
 * [User Guide](#user-guide)
 * [Developer Guide](#developer-guide)
-* [Development History](#developer-guide)
+* [Development History](#development-history)
 * [Deployment](#deployment)
 * [Contact Us](#contact-us)
 * [Team](#team)
@@ -44,7 +44,7 @@ This section provides a walkthrough of the Taste Technologists user interface an
 
 The landing page is presented to users when they visit the top-level URL to the site.
 
-![](M1_LandingPage.png)
+![](M2_Landing.png)
 
 ### Sign In and Sign Up Page
 
@@ -55,19 +55,19 @@ Click on the "Login" button in the upper right corner of the navbar, then select
 
 Alternatively, you can select "Sign up" to go to the following page and register as a new user:
 
-![](M1_RegisterPage.png)
+![](M2_SignUp.png)
 
-### List Recipes Page
+### Favorites Page
 
 The list recipes page provides a display of all the recipe cards in the database. 
 
-![](M1_List.png)
+![](M2_Favorites.png)
 
 ### Search Page
 
-The search page provides the ability to query the recipe database and display the results in the page. 
+The search page provides the ability to filter the recipe database and display the results in the page. 
 
-![](M1_List.png)
+![](M2_Search.png)
 
 ### Individual Recipe Page
 
@@ -79,29 +79,75 @@ The individual recipe page provides the necessary information of the selected re
 * Available ingredients 
 * Nearby grocery stores
 
-![](M1_IndividualRecipe.png)
-
-### Favorites Page
-
-The favorites page allows users to keep track of their favorite recipes for later references.
-
-![](M1_Favorites.png)
+![](M2_RecView.png)
 
 ### My Recipes Page
+The my recipes page will display all of the recipes that the user has added to the application. Here they can access the edit link to edit their own recipes.
 
-The my recipes page gives users the ability to add their own recipes to the application. Each time a recipe is added by a user, the user's email will be set as the recipe's owner.
+![](M2_MyRecipes.png)
 
-![](M1_MyRecipes.png)
+### Add Recipes Page
+The add recipes page gives users the ability to add their own recipes to the application. Each time a recipe is added by a user, the user's email will be set as the recipe's owner.
+![](M2_RecAdd.png)
+
+
+### Edit Recipes Page
+The edit recipes page gives users the ability to edit their own recipes in the application.
+![](M2_RecEdit.png)
+
 
 ### Vendor Page
 
 The vendor page lists all of the available stores, locations, hours, and the updated inventory. If a user is assigned to the vendor role, they will be able to edit the inventory for their store.
 
-![](M1_VendorList.png)
+![](M2_VendorList.png)
+
+### Vendor Add Page
+*** Add Description ***
+
+![](M2_VendorAdd.png)
+
+### Vendor Edit Page
+*** Add Description ***
+
+![](M2_VendorEdit.png)
+
+### Vendor Inventory Page
+*** Add Description ***
+
+![](M2_VendorInv.png)
+
+### Add Inventory Page
+*** Add Description ***
+
+![](M2_InventoryAdd.png)
+
+### Edit Inventory Page
+*** Add Description ***
+
+![](M2_InventoryEdit.png)
+
+
+### Admin Dashboard Page
+*** Add Description ***
+
+![](M2_AdminDash.png)
+
+
+### Admin Edit Role Page
+*** Add Description ***
+
+![](M2_AdminEditRole.png)
+
+### Admin Vendor List Page
+*** Add Description ***
+
+![](M2_AdminVendorList.png)
 
 ## Developer Guide
 
-
+<details>
+    <summary>Click for Installation Instructions</summary>
 ### Installation
 
 First, [install Meteor](https://www.meteor.com/install).
@@ -163,8 +209,11 @@ You can verify that the code obeys our coding standards by running ESLint over t
 ```
 meteor npm run lint
 ```
+</details>
 
 ## Deployment
+<details>
+<summary>Click for Deployment Instructions</summary>
 ### Digital Ocean Setup
 For our project, we used [Digital Ocean](https://www.digitalocean.com/) to set up the server and host the application.
 
@@ -326,6 +375,8 @@ Started TaskList: Start Meteor
 
 #### 9. View your application
 The Taste Technologists application should now be available at at http://111.222.333.444, where '111.222.333.444' is replaced by the IP address for your Droplet.
+</details>
+
 
 ## Development History
 As our team implements this application, we will be working according to three milestones.  For our first deployment our main concerns were creating the base pages and basic components of the page.  We used the react template to give us the framework of the website. Additionally, we added in basic user functionality like being able to see all recipes and individual recipes.  We also created logos and have a draft of a basic theme.  In the M2 we want to create more collections as well as functionality for users, vendors and admins.  Depending on how much tasks we finish in M2 we could also create beyond the basics features.  
@@ -338,7 +389,7 @@ As our team implements this application, we will be working according to three m
 
 
 ## Deployment
-The deployed application can be viewed [here](http://147.182.204.39).
+The deployed application can be viewed [here](https://taste-technologist.site).
 
 ## Contact Us
 
