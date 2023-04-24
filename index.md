@@ -147,7 +147,7 @@ The vendor page lists all of the available stores, locations, hours, and the upd
 ## Developer Guide
 
 
-### Installation
+### Installation 
 First, [install Meteor](https://www.meteor.com/install).
 
 Second, go to [https://github.com/taste-technologists/taste-technologists](https://github.com/taste-technologists/taste-technologists), and download a copy of Taste Technologists.
