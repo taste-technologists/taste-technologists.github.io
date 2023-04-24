@@ -88,13 +88,13 @@ The my recipes page will display all of the recipes that the user has added to t
 
 ### Add Recipes Page
 The add recipes page gives users the ability to add their own recipes to the application. Each time a recipe is added by a user, the user's email will be set as the recipe's owner.
-![](M2_RecAdd.png)
 
+![](M2_RecAdd.png)
 
 ### Edit Recipes Page
 The edit recipes page gives users the ability to edit their own recipes in the application.
-![](M2_RecEdit.png)
 
+![](M2_RecEdit.png)
 
 ### Vendor Page
 
@@ -103,7 +103,7 @@ The vendor page lists all of the available stores, locations, hours, and the upd
 ![](M2_VendorList.png)
 
 ### Vendor Add Page
-*** Add Description ***
+The vendor add page allows an admin to create a new vendor for the application's vendor list. The only users with this functionality are the superadmin and admin.
 
 ![](M2_VendorAdd.png)
 
@@ -129,18 +129,17 @@ The vendor page lists all of the available stores, locations, hours, and the upd
 
 
 ### Admin Dashboard Page
-*** Add Description ***
+The admin dashboard pages allows an admin user to view all of the users in the application along with their respective role. Admins can also see a total user count, recipe count, and vendor count. If a user requests to be a vendor, this will appear on the dashboard as well. Additionally, admins can delete users from the application. In order to create a safeguard for admin users, only the superadmin can delete admin users.
 
 ![](M2_Admin.png)
 
-
 ### Admin Edit Role Page
-*** Add Description ***
+Clicking on the edit button on the admin dashboard leads the admin to the edit role page. Here admins can update and change the roles of users on the application. If a user requests to be a vendor, the admin can grant this request through this page.
 
 ![](M2_AdminEditRole.png)
 
 ### Admin Vendor List Page
-*** Add Description ***
+The admin vendor list page allows the admin user to view all of the vendors as well as the inventory that they have in stock. Admins can also edit the inventory on this page.
 
 ![](M2_AdminVendorList.png)
 
@@ -407,9 +406,13 @@ The Taste Technologists application should now be available at at http://111.222
 </details>
 
 ## Development History
-As our team implements this application, we will be working according to three milestones.  For our first deployment our main concerns were creating the base pages and basic components of the page.  We used the react template to give us the framework of the website. Additionally, we added in basic user functionality like being able to see all recipes and individual recipes.  We also created logos and have a draft of a basic theme.  In the M2 we want to create more collections as well as functionality for users, vendors and admins.  Depending on how much tasks we finish in M2 we could also create beyond the basics features.  
+As our team implements this application, we will be working according to three milestones. 
+
+For our first deployment our main concerns were creating the base pages and basic components of the page.  We used the react template to give us the framework of the website. Additionally, we added in basic user functionality like being able to see all recipes and individual recipes. We also created logos and have a draft of a basic theme. In the M2 we want to create more collections as well as functionality for users, vendors and admins. Depending on how much tasks we finish in M2 we could also create beyond the basics features.  
 
 [Milestone 1](https://github.com/orgs/taste-technologists/projects/1)
+
+Our second milestone consisted of implementing more functionality to the application. We were able to create more pages and execute the desired capabilities. Pages related to the admin, vendor, inventory, and recipes were completed. This required us to have a strong connection to our database in MongoDB as well as making the application interface more user-friendly. Additionally, we implemented tests for all of our pages through TestCafe. In M3 we hope to continue improving our app's basic functionality and creating features that go beyond our minimum requirements.
 
 [Milestone 2](https://github.com/orgs/taste-technologists/projects/7)
 
