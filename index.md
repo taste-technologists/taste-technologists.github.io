@@ -148,8 +148,6 @@ The vendor page lists all of the available stores, locations, hours, and the upd
 
 
 ### Installation
-<details>
-<summary>Click for Installation Instructions</summary>
 First, [install Meteor](https://www.meteor.com/install).
 
 Second, go to [https://github.com/taste-technologists/taste-technologists](https://github.com/taste-technologists/taste-technologists), and download a copy of Taste Technologists.
@@ -209,14 +207,11 @@ You can verify that the code obeys our coding standards by running ESLint over t
 ```
 meteor npm run lint
 ```
-</details>
+
 
 ## Deployment
 
 ### Digital Ocean Setup
-
-<details>
-<summary>Click for Deployment Instructions</summary>
 For our project, we used [Digital Ocean](https://www.digitalocean.com/) to set up the server and host the application.
 
 To Deploy Taste Technologists, you will need to complete the following steps:
@@ -377,7 +372,7 @@ Started TaskList: Start Meteor
 
 #### 9. View your application
 The Taste Technologists application should now be available at at http://111.222.333.444, where '111.222.333.444' is replaced by the IP address for your Droplet.
-</details>
+
 
 
 ## Development History
