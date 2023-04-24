@@ -103,7 +103,7 @@ The vendor page lists all of the available stores, locations, hours, and the upd
 ![](M2_VendorList.png)
 
 ### Vendor Add Page
-The vendor add page allows an admin to create a new vendor for the application's vendor list. The only users with this functionality are the superadmin and admin.
+The vendor add page allows a user to create a new vendor for the application's vendor list. The only users with this functionality are the superadmin, admin, and vendor.
 
 ![](M2_VendorAdd.png)
 
