@@ -131,7 +131,7 @@ The vendor page lists all of the available stores, locations, hours, and the upd
 ### Admin Dashboard Page
 *** Add Description ***
 
-![](M2_AdminDash.png)
+![](M2_Admin.png)
 
 
 ### Admin Edit Role Page
