@@ -117,22 +117,21 @@ The vendor add page allows a user to create a new vendor for the application's v
 ![](M2_VendorAdd.png)
 
 ### Vendor Edit Page
-*** Add Description ***
-
+The vendor edit page allows an authorized user to edit the vendor information so that it is up-to-date.
 ![](M2_VendorEdit.png)
 
 ### Vendor Inventory Page
-*** Add Description ***
+The vendor inventory page allows all users to view the current inventory for the vendor. Clicking the shopping cart icon takes users to the Add Inventory page.
 
 ![](M2_VendorInv.png)
 
 ### Add Inventory Page
-*** Add Description ***
+The add inventory page allows all users to add an item to a vendor's inventory.
 
 ![](M2_InventoryAdd.png)
 
 ### Edit Inventory Page
-*** Add Description ***
+The edit inventory page allows all users to edit an item's information.
 
 ![](M2_InventoryEdit.png)
 
