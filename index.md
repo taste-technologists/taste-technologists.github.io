@@ -146,10 +146,10 @@ The vendor page lists all of the available stores, locations, hours, and the upd
 
 ## Developer Guide
 
-<details>
-    <summary>Click for Installation Instructions</summary>
-### Installation
 
+### Installation
+<details>
+<summary>Click for Installation Instructions</summary>
 First, [install Meteor](https://www.meteor.com/install).
 
 Second, go to [https://github.com/taste-technologists/taste-technologists](https://github.com/taste-technologists/taste-technologists), and download a copy of Taste Technologists.
@@ -212,9 +212,11 @@ meteor npm run lint
 </details>
 
 ## Deployment
+
+### Digital Ocean Setup
+
 <details>
 <summary>Click for Deployment Instructions</summary>
-### Digital Ocean Setup
 For our project, we used [Digital Ocean](https://www.digitalocean.com/) to set up the server and host the application.
 
 To Deploy Taste Technologists, you will need to complete the following steps:
