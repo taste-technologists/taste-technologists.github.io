@@ -230,67 +230,78 @@ meteor npm run lint
 ### Digital Ocean Setup
 For our project, we used [Digital Ocean](https://www.digitalocean.com/) to set up the server and host the application.
 
-To Deploy Taste Technologists, you will need to complete the following steps:
-#### 1. Sign up with Digital Ocean
-Go to [Digital Ocean](https://www.digitalocean.com/) and click on the 'Sign Up' button to create your account.
+To Deploy Taste Technologists, you will need to complete several steps:
 
-Note that you will need a credit card to complete the sign up. Currently (as of 4/12/23) Digital Ocean is offering a free $200 credit for 60 days.
+<details>
+<summary>Click for Deployment Instructions</summary>
 
-#### 2. Create an Ubuntu Server
-Find the Create Droplets page and choose your preferred settings. Once you are finished selecting your settings, click the 'Create Droplet' button at the bottom of your screen.
+<h4>1. Sign up with Digital Ocean</h4>
+<p>Go to <a href="https://www.digitalocean.com/">Digital Ocean</a> and click on the 'Sign Up' button to create your account.</p>
+<p>Note that you will need a credit card to complete the sign up. Currently (as of 4/12/23) Digital Ocean is offering a free $200 credit for 60 days.</p>
 
-The following are some recommended settings:
+<h4>2. Create an Ubuntu Server</h4>
+<p>Find the Create Droplets page and choose your preferred settings. Once you are finished selecting your settings, click the 'Create Droplet' button at the bottom of your screen.</p>
+<p>The following are some recommended settings:</p>
+<details>
+<summary>Click to view</summary>
+<img src="https://taste-technologists.github.io/do-1.png" alt="Ubuntu Server - Version 22.10 x64">
+<ul>
+<li>Ubuntu Server - Version 22.10 x64</li>
+<li>Droplet Type - Shared CPU - Basic</li>
+</ul>
+<img src="https://taste-technologists.github.io/do-2.png" alt="CPU options - Regular - Disk type: SSD">
+<ul>
+<li>CPU options - Regular - Disk type: SSD</li>
+<li>Plan - $6/mo with 1GB/1CPU - 25GB SSD Disk - 1000 GB transfer</li>
+</ul>
+<img src="https://taste-technologists.github.io/do-3.png" alt="Authentication Method - Create a root password">
+<ul>
+<li>Authentication Method - Create a root password</li>
+</ul>
+</details>
+<p>Once you have successfully created your droplet, you will find the information under your first project.</p>
+<img src="https://taste-technologists.github.io/do-4.png" alt="Droplet information">
 
-![do-1.png](do-1.png)
-* Ubuntu Server - Version 22.10 x64
-* Droplet Type - Shared CPU - Basic
+<h4>Local Setup</h4>
+<p>The rest of the deployment instructions must be carried out via your computer.</p>
 
-![do-2.png](do-2.png)
-
-* CPU options - Regular - Disk type: SSD
-* Plan - $6/mo with 1GB/1CPU - 25GB SSD Disk - 1000 GB transfer
-
-![do-3.png](do-3.png)
-* Authentication Method - Create a root password
-
-Once you have successfully created your droplet, you will find the information under your first project.
-![do-4.png](do-4.png)
-
-#### Local Setup
-The rest of the deployment instructions must be carried out via your computer.
-
-#### 3. Clone and install a copy of Taste Technologists.
+<h4>3. Clone and install a copy of Taste Technologists.</h4>
 If you have not already done so, clone the repository for Taste Technologists and run the installation instructions.
 
-#### 4. Install Meteor Up
-Install Meteor Up onto your computer by running
+<h4>4. Install Meteor Up</h4>
+<p>Install Meteor Up onto your computer by running</p>
 
-```$ npm install --global mup ```
-#### 5. Create app/.deploy/mup.js and app/.deploy/settings.json
+<code>$ npm install --global mup</code>
 
-Create an IntelliJ Project for your local copy of Taste Technologists.
+<h4>5. Create app/.deploy/mup.js and app/.deploy/settings.json</h4>
 
-In the app/.deploy directory, you’ll find two files: mup.sample.js and settings.sample.json. Make a copy of mup.sample.js called mup.js, and a copy of settings.sample.json called settings.json. When you’re done, the .deploy directory should look like this:
+<p>Create an IntelliJ Project for your local copy of Taste Technologists.</p>
 
-![do-5.png](do-5.png)
+<p>In the app/.deploy directory, you’ll find two files: mup.sample.js and settings.sample.json. Make a copy of mup.sample.js called mup.js, and a copy of settings.sample.json called settings.json. When you’re done, the .deploy directory should look like this:</p>
 
-These files should be git-ignored, so you may safely store credentials here.
+<img src="https://taste-technologists.github.io/do-5.png" alt=".deploy directory">
 
-#### 6. Configure mup.js
-To do the initial deployment, you only need to edit the mup.js starting template.
-````
+<p>These files should be git-ignored, so you may safely store credentials here.</p>
+
+<h4>6. Configure mup.js</h4>
+<p>To do the initial deployment, you only need to edit the mup.js starting template.</p>
+<details>
+<summary>Click to view code: </summary>
+
+<pre>
+<code>
 module.exports = {
-servers: {
-one: {
-host: '111.222.333.444',
-username: 'root',
-password: 'changeme'
-}
-},
+  servers: {
+    one: {
+      host: '111.222.333.444',
+      username: 'root',
+      password: 'changeme'
+    }
+  },
 
-app: {
-name: 'meteor-application-template-react',
-path: '../',
+  app: {
+    name: 'meteor-application-template-react',
+    path: '../',
 
     servers: {
       one: {},
@@ -311,30 +322,31 @@ path: '../',
     },
 
     enableUploadProgressBar: true
-},
+  },
 
-mongo: {
-version: '5.0.5',
-servers: {
-one: {}
-}
-},
+  mongo: {
+    version: '5.0.5',
+    servers: {
+      one: {}
+    }
+  },
 };
-````
-There is one occurrence of the string “changeme”, and two occurrences of the string “111.222.333.444”.
+</code>
+</pre>
+</details>
 
-Change the string “changeme” (i.e. the server root password) to the Droplet root password you specified earlier.
+<p>There is one occurrence of the string “changeme”, and two occurrences of the string “111.222.333.444”.</p>
+<p>Change the string “changeme” (i.e. the server root password) to the Droplet root password you specified earlier.</p>
+<p>Change the string “111.222.333.444” to the IP address associated with your Droplet. Be sure to use the “ipv4” address, not the “Private IP” address!</p>
+<p>Note that the “host” value is just the IP address, but the ROOT_URL is “http://” followed by the IP address.</p>
 
-Change the string “111.222.333.444” to the IP address associated with your Droplet. Be sure to use the “ipv4” address, not the “Private IP” address!
+<h4>7. Run mup setup</h4>
+<p>Once you have completed configuring the mup.js file, you can now setup the application and MongoDB database.</p>
 
-Note that the “host” value is just the IP address, but the ROOT_URL is “http://” followed by the IP address.
+<p>Inside the app/.deploy directory, invoke “mup setup” (or “mup.cmd setup” on Windows).</p>
 
-#### 7. Run mup setup
-Once you have completed configuring the mup.js file, you can now setup the application and MongoDB database.
-
-Inside the app/.deploy directory, invoke “mup setup” (or “mup.cmd setup” on Windows).
-
-```` 
+<pre>
+<code>
 $ mup setup 
 
 Started TaskList: Setup Docker
@@ -357,13 +369,15 @@ Started TaskList: Start Mongo
 
 Next, you should run:
     mup deploy
-````
+</code>
+</pre>
 
-#### 8. Run mup deploy
-If the previous step was successful, you can now start running your application on the Droplet.
-Inside the same directory as before (app/.deploy), invoke "mup deploy" (or, on Windows “mup.cmd deploy”).
+<h4>8. Run mup deploy</h4>
+<p>If the previous step was successful, you can now start running your application on the Droplet.</p>
+<p>Inside the same directory as before (app/.deploy), invoke "mup deploy" (or, on Windows “mup.cmd deploy”).</p>
 
-```` 
+<pre>
+<code>
 $ mup deploy
 Building App Bundle Locally
 
@@ -384,12 +398,13 @@ Started TaskList: Start Meteor
 [111.222.333.444] - Start Meteor: SUCCESS
 [111.222.333.444] - Verifying Deployment
 [111.222.333.444] - Verifying Deployment: SUCCESS
-````
+</code>
+</pre>
 
-#### 9. View your application
+<h4>9. View your application</h4>
 The Taste Technologists application should now be available at at http://111.222.333.444, where '111.222.333.444' is replaced by the IP address for your Droplet.
 
-
+</details>
 
 ## Development History
 As our team implements this application, we will be working according to three milestones.  For our first deployment our main concerns were creating the base pages and basic components of the page.  We used the react template to give us the framework of the website. Additionally, we added in basic user functionality like being able to see all recipes and individual recipes.  We also created logos and have a draft of a basic theme.  In the M2 we want to create more collections as well as functionality for users, vendors and admins.  Depending on how much tasks we finish in M2 we could also create beyond the basics features.  
