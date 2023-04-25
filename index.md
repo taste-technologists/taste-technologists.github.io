@@ -1,6 +1,8 @@
 
 ![](FaS-BldTrnsprnt.png)
 
+![ci-badge](https://github.com/taste-technologists/taste-technologists/workflows/taste-technologists/badge.svg)
+
 ## Table of contents
 
 * [Overview](#overview)
