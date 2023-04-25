@@ -6,8 +6,9 @@
 * [Overview](#overview)
 * [User Guide](#user-guide)
 * [Developer Guide](#developer-guide)
-* [Development History](#development-history)
 * [Deployment](#deployment)
+* [Development History](#development-history)
+* [Deployed App](#deployed-app)
 * [Contact Us](#contact-us)
 * [Team](#team)
 * [Team Contract](#team-contract)
@@ -429,7 +430,7 @@ Our second milestone consisted of implementing more functionality to the applica
 [Milestone 3](https://github.com/orgs/taste-technologists/projects/8)
 
 
-## Deployment
+## Deployed App
 The deployed application can be viewed [here](https://taste-technologist.site).
 
 ## Contact Us
