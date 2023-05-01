@@ -11,6 +11,7 @@
 * [Deployment](#deployment)
 * [Development History](#development-history)
 * [Deployed App](#deployed-app)
+* [Community Feedback](#community-feedback)
 * [Contact Us](#contact-us)
 * [Team](#team)
 * [Team Contract](#team-contract)
@@ -429,11 +430,16 @@ Our second milestone consisted of implementing more functionality to the applica
 
 [Milestone 2](https://github.com/orgs/taste-technologists/projects/7)
 
+The third and final milestone of our application was spent improving the functionality developed in M2. We created the ability to delete recipes, review recipes, and find what vendors had the ingredients needed for a particular recipe. Theme improvements were also made to the application along with the incorporation of more default data into our system. Tests with TestCafe were also implemented for the new pages created in M3.
+
 [Milestone 3](https://github.com/orgs/taste-technologists/projects/8)
 
 
 ## Deployed App
 The deployed application can be viewed [here](https://taste-technologist.site).
+
+## Community Feedback
+Following the development of our application, the Taste Technologists team wanted to have members of the UH community test our app and provide their opinions and feedback. We were able to have ___ community members that were not in our ICS 314 class explore and inspect the Taste Technologists site. Through their feedback we found the following strengths of our application and areas for improvement.
 
 ## Contact Us
 
