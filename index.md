@@ -480,6 +480,11 @@ The deployed application can be viewed [here](https://taste-technologist.site).
 ## Community Feedback
 Following the development of our application, the Taste Technologists team wanted to have members of the UH community test our app and provide their opinions and feedback. We were able to have 8 community members that were not in our ICS 314 class explore and inspect the Taste Technologists site. Through their feedback we found the following strengths of our application and areas for improvement.  Many of the responses liked the accessible and easy navigation of the website. For improvements there were varying answers, some that stood out were spicing up the aesthetics of the website.  A user expressed that they were confused about the footer section that says sign up for updates.  Another user would have liked to have a map feature for vendors. 
 
+We were able to include some of the suggestions for our latest deployment, such as:
+* Adding the number of reviews next to each recipe's rating.
+* Removing the loading spinner from each card component.
+* Clicking on a vendor address leads to its location on the Google Maps site.
+
 ## Contact Us
 
 ### Team
