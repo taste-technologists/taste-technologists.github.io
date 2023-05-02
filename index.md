@@ -191,6 +191,11 @@ The admin reviews page allows the admin user to view all of the reviews for all 
 
 ![](M3_AdminReviews.png)
 
+### Admin Review Generator
+For testing purposes, there is a page that will generate random reviews and also delete every single review. The link to this is hidden on the admin panel.
+
+![](M3_AdminReviewGen.png)
+
 ## Developer Guide
 
 
