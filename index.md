@@ -78,15 +78,22 @@ The search page provides the ability to filter the recipe database and display t
 
 ### Individual Recipe Page
 
-The individual recipe page provides the necessary information of the selected recipe. The recipe card should include but not limited to:
+The individual recipe page provides the necessary information of the selected recipe. The recipe card may include information such as:
 
-* Minimal kitchen facilities 
-* Dietary restrictions 
+* Ingredients and Instructions 
+* Average User Rating
 * Cost, servings, time
 * Available ingredients 
 * Nearby grocery stores
 
-![](M2_RecView.png)
+This is the initial view of an individual recipe page: 
+![](M3_RecView.png)
+
+Users can select the "Check Inventory" button to see the availability of a recipe's ingredients.
+![](M3_RecViewLocationsRating.png)
+
+Clicking the "Reviews" button brings up a panel with users' ratings and reviews of the recipe. There is also a form for users to add their own rating and review.
+![](M3_RecViewRating.png)
 
 ### My Recipes Page
 The my recipes page will display all of the recipes that the user has added to the application. Here they can access the edit link to edit their own recipes.
