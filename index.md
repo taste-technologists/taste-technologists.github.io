@@ -103,48 +103,63 @@ The my recipes page will display all of the recipes that the user has added to t
 If a user has not added any recipes they will see the following page:
 ![](M3_MyRecipesNone.png)
 
+### My Reviews Page
+The My Reviews Page will display all of the reviews that the user has added to the application. Here they can read their past reviews and delete them.
+
+![](M3_MyReviews.png)
+
+If a user has not added any reviews they will see the following page:
+![](M3_MyReviewsNone.png)
+
 ### Add Recipe Page
 The add recipe page gives users the ability to add their own recipes to the application. Each time a recipe is added by a user, the user's email will be set as the recipe's owner.
 
-![](M2_RecAdd.png)
+![](M3_RecAdd.png)
 
 ### Edit Recipe Page
 The edit recipe page gives users the ability to edit their own recipes in the application.
 
-![](M2_RecEdit.png)
+![](M3_RecEdit.png)
 
 ### Vendor Page
 
-The vendor page lists all of the available stores, locations, hours, and the updated inventory. If a user is assigned to the vendor role, they will be able to edit the inventory for their store.
+The vendor page lists all of the available stores, locations, hours, and the updated inventory. If a user is assigned to the vendor role, they will be able to add and edit vendors.
 
-![](M2_VendorList.png)
+![](M3_VendorListVendor.png)
+
+Admin users have the ability to add, edit, and delete vendors.
+![](M3_VendorListAdmin.png)
 
 Regular users will see the following vendor page:
-![](M2_VendorListUser.png)
+![](M3_VendorListUser.png)
 
 ### Add Vendor Page
 The add vendor page allows a user to create a new vendor for the application's vendor list. The only users with this functionality are the superadmin, admin, and vendor.
 
-![](M2_VendorAdd.png)
+![](M3_VendorAdd.png)
 
 ### Edit Vendor Page
 The edit vendor page allows an authorized user to edit the vendor information so that it is up-to-date.
-![](M2_VendorEdit.png)
+![](M3_VendorEdit.png)
 
 ### Vendor Inventory Page
-The vendor inventory page allows all users to view the current inventory for the vendor. Clicking the shopping cart icon takes users to the Add Inventory page.
+The vendor inventory page allows all users to view the current inventory and add and edit items for the vendor. Clicking the shopping cart icon takes users to the Add Inventory page. Clicking the address takes users to the address location on Google Maps.
 
-![](M2_VendorInv.png)
+
+![](M3_VendorInvUser.png)
+
+Users with Admin or Vendor roles also have the ability to delete items from the inventory.
+![](M3_VendorInv.png)
 
 ### Add Inventory Page
-The add inventory page allows all users to add an item to a vendor's inventory.
+The add inventory page allows all users to add an item to a vendor's inventory. The form is autofilled with the vendor's name.
 
-![](M2_InventoryAdd.png)
+![](M3_InventoryAdd.png)
 
 ### Edit Inventory Page
-The edit inventory page allows all users to edit an item's information.
+The edit inventory page allows all users to edit an item's information. The form is autofilled with the vendor's name and the name is un-editable.
 
-![](M2_InventoryEdit.png)
+![](M3_InventoryEdit.png)
 
 
 ### Admin Dashboard Page
