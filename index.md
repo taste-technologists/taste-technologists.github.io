@@ -65,7 +65,7 @@ Alternatively, you can select "Sign up" to go to the following page and register
 
 The list recipes page provides a display of all the recipe cards in the database. 
 
-![](M3_Favorites.png)
+![](M3_Favorites2.png)
 
 If a user has not yet added any favorites the following page will be displayed:
 ![](M3_FavoritesNone.png)
@@ -90,10 +90,10 @@ This is the initial view of an individual recipe page:
 ![](M3_RecView.png)
 
 Users can select the "Check Inventory" button to see the availability of a recipe's ingredients.
-![](M3_RecViewLocationsRating.png)
+![](M3_RecViewLocationsRating2.png)
 
 Clicking the "Reviews" button brings up a panel with users' ratings and reviews of the recipe. There is also a form for users to add their own rating and review.
-![](M3_RecViewRating.png)
+![](M3_RecViewRating2.png)
 
 ### My Recipes Page
 The my recipes page will display all of the recipes that the user has added to the application. Here they can access the edit link to edit their own recipes. Users can also delete their own recipes.
@@ -123,15 +123,15 @@ The edit recipe page gives users the ability to edit their own recipes in the ap
 
 ### Vendor Page
 
-The vendor page lists all of the available stores, locations, hours, and the updated inventory. If a user is assigned to the vendor role, they will be able to add and edit vendors.
+The vendor page lists all of the available stores, locations, hours, and the updated inventory. If a user is assigned to the vendor role, they will be able to add and edit vendors. Users can click on the vendor's address to open it in Google Maps.
 
-![](M3_VendorListVendor.png)
+![](M3_VendorListVendor2.png)
 
 Admin users have the ability to add, edit, and delete vendors.
-![](M3_VendorListAdmin.png)
+![](M3_VendorListAdmin2.png)
 
 Regular users will see the following vendor page:
-![](M3_VendorListUser.png)
+![](M3_VendorListUser2.png)
 
 ### Add Vendor Page
 The add vendor page allows a user to create a new vendor for the application's vendor list. The only users with this functionality are the superadmin, admin, and vendor.
