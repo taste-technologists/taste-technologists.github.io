@@ -48,27 +48,27 @@ This section provides a walkthrough of the Taste Technologists user interface an
 
 The landing page is presented to users when they visit the top-level URL to the site.
 
-![](M2_Landing.png)
+![](M3_Landing.png)
 
 ### Sign In and Sign Up Page
 
 Click on the "Login" button in the upper right corner of the navbar, then select "Sign in" to go to the following page and login. You must have been previously registered with the system to use this option:
 
-![](M1_SignInPage.png)
+![](M3_SignInPage.png)
 
 
 Alternatively, you can select "Sign up" to go to the following page and register as a new user:
 
-![](M2_SignUp.png)
+![](M3_SignUp.png)
 
 ### Favorites Page
 
 The list recipes page provides a display of all the recipe cards in the database. 
 
-![](M2_Favorites.png)
+![](M3_Favorites.png)
 
 If a user has not yet added any favorites the following page will be displayed:
-![](M2_FavoritesNone.png)
+![](M3_FavoritesNone.png)
 
 ### Search Page
 
@@ -91,10 +91,10 @@ The individual recipe page provides the necessary information of the selected re
 ### My Recipes Page
 The my recipes page will display all of the recipes that the user has added to the application. Here they can access the edit link to edit their own recipes.
 
-![](M2_MyRecipes.png)
+![](M3_MyRecipes.png)
 
 If a user has not added any recipes they will see the following page:
-![](M2_MyRecipesNone.png)
+![](M3_MyRecipesNone.png)
 
 ### Add Recipe Page
 The add recipe page gives users the ability to add their own recipes to the application. Each time a recipe is added by a user, the user's email will be set as the recipe's owner.
