@@ -74,7 +74,7 @@ If a user has not yet added any favorites the following page will be displayed:
 
 The search page provides the ability to filter the recipe database and display the results in the page. 
 
-![](M2_Search.png)
+![](M3_search.png)
 
 ### Individual Recipe Page
 
