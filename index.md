@@ -96,7 +96,7 @@ Clicking the "Reviews" button brings up a panel with users' ratings and reviews 
 ![](M3_RecViewRating.png)
 
 ### My Recipes Page
-The my recipes page will display all of the recipes that the user has added to the application. Here they can access the edit link to edit their own recipes.
+The my recipes page will display all of the recipes that the user has added to the application. Here they can access the edit link to edit their own recipes. Users can also delete their own recipes.
 
 ![](M3_MyRecipes.png)
 
@@ -165,19 +165,31 @@ The edit inventory page allows all users to edit an item's information. The form
 ### Admin Dashboard Page
 The admin dashboard pages allows an admin user to view all of the users in the application along with their respective role. Admins can also see a total user count, recipe count, and vendor count. The recipes button goes to the search recipes page and the ingredients button goes to the admin vendor list page. If a user requests to be a vendor, this will appear on the dashboard as well. Additionally, admins can delete users from the application. In order to create a safeguard for admin users, only the superadmin can delete admin users.
 
-![](M2_Admin.png)
+![](M3_Admin.png)
 
 ### Admin Edit Role Page
 Clicking on the edit button on the admin dashboard leads the admin to the edit role page. Here admins can update and change the roles of users on the application. If a user requests to be a vendor, the admin can grant this request through this page.
 
 Note that only a superadmin can assign an admin role to other users.
 
-![](M2_AdminEditRole.png)
+![](M3_AdminEditRole.png)
 
-### Admin Vendor List Page
-The admin vendor list page allows the admin user to view all of the vendors as well as the inventory that they have in stock. Admins can also edit the inventory on this page.
+### Admin Recipe List Page
+The admin recipe list page allows the admin user to view all of the recipes in the application. Admin can also edit and delete any recipe from this page.
+![](M3_AdminRecipes.png)
+![](M3_AdminRecipeEdit.png)
 
-![](M2_AdminVendorList.png)
+### Admin Vendor Inventory Page
+The admin vendor inventory page allows the admin user to view all of the vendors as well as the inventory that they have in stock. Admins can also edit and delete the items in the inventory.
+
+Note that the edit link takes the admin to the same edit inventory page as above.
+
+![](M3_AdminInventory.png)
+
+### Admin Reviews Page
+The admin reviews page allows the admin user to view all of the reviews for all recipes in the app. Admins can also delete the reviews from the app on this page.
+
+![](M3_AdminReviews.png)
 
 ## Developer Guide
 
